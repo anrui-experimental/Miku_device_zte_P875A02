@@ -1,5 +1,7 @@
 Copyright (C) 2021-2022 The LineageOS Project
 
+Copyright (C) 2022-2026 Miku UI
+
 Device configuration for ZTE Axon 30 Pro 5G
 =========================================
 

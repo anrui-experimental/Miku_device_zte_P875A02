@@ -1,9 +1,9 @@
 //
-// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-FileCopyrightText: Miku UI
 // SPDX-License-Identifier: Apache-2.0
 //
 
 runtime_resource_overlay {
-    name: "ZTELineageSettingsOverlay",
+    name: "ZTEMikuSettingsOverlay",
     vendor: true,
 }

@@ -11,14 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/zte/P875A02/device.mk)
 
-# Inherit from the Lineage configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Miku stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product_phone.mk)
+
+MIKU_MASTER := anrui
 
 PRODUCT_BRAND := ZTE
 PRODUCT_DEVICE := P875A02
 PRODUCT_MANUFACTURER := ZTE
 PRODUCT_MODEL := ZTE A2022
-PRODUCT_NAME := lineage_P875A02
+PRODUCT_NAME := miku_P875A02
 
 PRODUCT_GMS_CLIENTID_BASE := android-zte
 
